@@ -2,6 +2,7 @@ public class accountsearchbynamecontroller {
     public integer accnamesize {set; get;}
     public string accnamename {set; get;}
     public list<Account> acclist {set; get;}
+    public list<opportunity> opplist {Set;get;}
     
     public  void searchaccountlist()  {
         if(accnamename!=null && accnamename!='') {
